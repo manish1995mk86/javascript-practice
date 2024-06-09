@@ -10,13 +10,13 @@ console.log("           4. This will tell you how many times you have reached th
       
       let a=prompt("enter your number :-  ");
       if(a==target){
-          console.log("you guess the correct number :- "+target);
+          console.log("congratulations ! you guess the correct number :- "+target);
           break;
       }else if(a<target)
       {
-          console.log("plz enter grater value");
+          console.log("you typed wrong value, plz enter the grater value");
       }else{
-          console.log("plz enter smaller value")
+          console.log("you typed wrong valueplz enter the smaller value")
       }
   count++;
   }
